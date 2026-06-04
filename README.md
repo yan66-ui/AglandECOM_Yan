@@ -19,11 +19,11 @@ Spatially explicit total annual monetary value of four ecosystem services from a
 
 | Ecosystem Service | Annual Value | Share |
 |------------------|-------------|-------|
-| Food Production | $17,002,869,000 | ~71% |
-| Water Regulation | $5,506,312,714 | ~23% |
-| Cultural Services | $944,450,000 | ~4% |
-| Carbon Sequestration | $480,865,440 | ~2% |
-| **TOTAL** | **$23,934,497,154** | 100% |
+| Food Production | $17,002,869,000 | ~72.1% |
+| Water Regulation | $5,506,312,714 | ~23.3% |
+| Cultural Services | $944,450,000 | ~4.0% |
+| Carbon Sequestration | $131,032,000 | ~0.6% |
+| **TOTAL** | **$23,584,663,714** | 100% |
 
 ## Components
 
@@ -34,7 +34,7 @@ The raster is the cell-wise sum of four ecosystem services:
 | Food Production | Crop yield (ton/ha/yr) × market price (USD/ton); Corn $165/ton, Soybeans $375/ton, Wheat $199/ton (2024 USDA) | $17,002,869,000 |
 | Water Regulation | SCS-CN reduced runoff (ES_water = P − Q) × stormwater replacement cost ($3.38/1,000 gal, central); 102 counties, 6,166,764,841 m³/yr retained | $5,506,312,714 |
 | Cultural Services | Ag land area (22,486,764 acres) × unit value ($42/acre/yr); Aesthetic $23 + Recreation $19  | $944,450,000 |
-| Carbon Sequestration | SOC stock change (BD × D × OC) × 3.67 tCO₂e/tC × $22/tCO₂e (SCC central) | $480,865,440 |
+| Carbon Sequestration | SOC stock change (BD × D × OC) × 3.67 tCO₂e/tC × $22/tCO₂e (SCC central) | $131,032,000 |
 
 ## Notes
 
