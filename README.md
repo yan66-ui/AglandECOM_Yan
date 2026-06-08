@@ -19,11 +19,11 @@ Spatially explicit total annual monetary value of four ecosystem services from a
 
 | Ecosystem Service | Annual Value | Share |
 |------------------|-------------|-------|
-| Food Production | $17,002,869,000 | ~72.1% |
-| Water Regulation | $5,506,312,714 | ~23.3% |
-| Cultural Services | $944,450,000 | ~4.0% |
-| Carbon Sequestration | $131,032,000 | ~0.6% |
-| **TOTAL** | **$23,584,663,714** | 100% |
+| Food Production | $17,002,869,000 | ~137% |
+| Water Regulation | -$5,166,911,085 | ~-42% |
+| Cultural Services | $427,250,000 | ~4% |
+| Carbon Sequestration | $134,010,000 | ~1% |
+| **TOTAL** | **$12,397,217,915** | 100% |
 
 ## Components
 
@@ -32,14 +32,14 @@ The raster is the cell-wise sum of four ecosystem services:
 | Service | Pathway | Statewide Total |
 |---------|---------|-----------------|
 | Food Production | Crop yield (ton/ha/yr) × market price (USD/ton); Corn $165/ton, Soybeans $375/ton, Wheat $199/ton (2024 USDA) | $17,002,869,000 |
-| Water Regulation | SCS-CN reduced runoff (ES_water = P − Q) × stormwater replacement cost ($3.38/1,000 gal, central); 102 counties, 6,166,764,841 m³/yr retained | $5,506,312,714 |
-| Cultural Services | Ag land area (22,486,764 acres) × unit value ($42/acre/yr); Aesthetic $23 + Recreation $19  | $944,450,000 |
-| Carbon Sequestration | SOC stock change (BD × D × OC) × 3.67 tCO₂e/tC × $22/tCO₂e (SCC central) | $131,032,000 |
+| Water Regulation | SCS-CN reduced runoff (ES_water = P − Q) × stormwater replacement cost ($3.38/1,000 gal, central) |  −$5,166,911,085 |
+| Cultural Services | Ag land area (22,486,764 acres) × unit value ($19/acre/yr); | $427,250,000 |
+| Carbon Sequestration | SOC stock change (BD × D × OC) × 3.67 tCO₂e/tC × $22.5/tCO₂e (SCC central) | $134,010,000 |
 
 ## Notes
 
-- Carbon sequestration values are based on soil organic carbon (SOC) stock change estimates. Carbon price ($22/tCO₂e) is a reference value and may need updating to reflect current market rates.
-- Cultural service unit values ($23/acre/yr aesthetic, $19/acre/yr recreation) are transferred from West Michigan cropland estimates (GVSU WRI); benefit transfer uncertainty applies. Cultural services are **not** spatially distributed at pixel level but allocated uniformly across all agricultural cells.
+- Carbon sequestration values are based on soil organic carbon (SOC) stock change estimates. Carbon price ($22.5/tCO₂e) is a reference value and may need updating to reflect current market rates.
+- Cultural service unit values ( $19/acre/yr recreation) are transferred from West Michigan cropland estimates (GVSU WRI); benefit transfer uncertainty applies. Cultural services are **not** spatially distributed at pixel level but allocated uniformly across all agricultural cells.
 - Water regulation total is derived from county-level zonal statistics across 102 Illinois counties. Stormwater unit cost ($3.38/1,000 gal) is a central estimate and may need updating to reflect local rates.
 
 ## Provenance
